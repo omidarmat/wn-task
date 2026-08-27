@@ -5,6 +5,7 @@ import clsx from "clsx";
 import { ButtonHTMLAttributes, forwardRef, ReactNode } from "react";
 import { Spinner } from "../spinner/spinner";
 import { ButtonSize, ButtonVariant } from "@/types/ui/button";
+import "./module.index.css";
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   isLoading?: boolean;
@@ -34,12 +35,12 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
     const isDisabled = Boolean(disabled || isLoading);
 
     const base = clsx(
-      "font-medium",
+      "font-semibold",
       "inline-flex items-center justify-center gap-2",
       "select-none whitespace-nowrap",
       "disabled:cursor-not-allowed",
       "cursor-pointer",
-      "rounded-xl",
+      "rounded-full",
       "transition-all duration-300",
 
       // Focus ring
@@ -51,22 +52,22 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
     );
 
     const sizes: Record<ButtonSize, string> = {
-      small: variant === "icon" ? "h-8 w-8 px-1 text-sm" : "h-8 px-3 text-sm",
+      small: variant === "icon" ? "h-8 w-8 px-1 text-sm" : "h-12 px-4 text-sm",
       regular:
-        variant === "icon" ? "h-10 w-10 px-2 text-sm" : "h-10 px-6 text-sm",
+        variant === "icon" ? "h-10 w-10 px-2 text-sm" : "h-12 px-8 text-sm",
       large:
-        variant === "icon" ? "h-12 w-12 px-3 text-base" : "h-12 px-8 text-base",
+        variant === "icon" ? "h-12 w-12 px-3 text-base" : "h-16 px-10 text-lg",
     };
 
     const variants: Record<ButtonVariant, string> = {
       contained: clsx(
-        "bg-primary-500 text-secondary-50",
-        "hover:bg-primary-600 active:bg-primary-700",
-        "disabled:bg-neutral-300 disabled:text-neutral-400",
+        "button-linear-gradient text-white",
+        "hover:button-linear-gradient",
+        "disabled:bg-neutral-300",
 
-        "dark:bg-primary-500 dark:text-secondary-50",
-        "dark:hover:bg-primary-600 dark:active:bg-primary-700",
-        "dark:disabled:bg-bg-600 dark:disabled:text-neutral-500",
+        "dark:button-linear-gradient",
+        "dark:hover:button-linear-gradient",
+        "dark:disabled:button-linear-gradient",
       ),
 
       contained_error: clsx(

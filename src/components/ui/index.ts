@@ -10,3 +10,4 @@ export { Tabs } from "./tabs/tabs";
 export { Typography } from "./typography/typography";
 export { MainLayout } from "./layout/layout.main";
 export { Container } from "./container/container";
+export { IconContainer } from "./icon-container/icon-container";

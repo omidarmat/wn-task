@@ -7,9 +7,9 @@ interface PropTypes {
 
 export function MainLayout({ children }: PropTypes) {
   return (
-    <div className="">
-      <Header />
-      <main>{children}</main>
+    <div>
+      <Header classes="fixed top-5 mx-auto z-100" />
+      <main className="mt-32">{children}</main>
       <Footer />
     </div>
   );

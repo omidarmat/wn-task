@@ -4,4 +4,5 @@ export { Navbar } from "./navbar/navbar";
 export { Logo } from "./logo/logo";
 export { EntryCta } from "./entry-cta/entry-cta";
 export { Hero } from "./hero/hero";
-export { PriceBox } from "./price-box/price-box";
+export { Intro } from "./intro/intro";
+export { Features } from "./features/features";

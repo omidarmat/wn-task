@@ -1,50 +1,72 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: "Meem";
+  font-family: "Abar";
   src:
-    local("MeemFaNum-ExtraLight"),
-    url("../assets/fonts/MeemFaNum-ExtraLight.woff2");
+    local("AbarMidFaNum-Regular"),
+    url("../assets/fonts/AbarMidFaNum-Regular.woff");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Abar";
+  src:
+    local("AbarMidFaNum-Regular"),
+    url("../assets/fonts/AbarMidFaNum-Regular.woff");
   font-weight: 200;
 }
 
 @font-face {
-  font-family: "Meem";
-  src: local("MeemFaNum-Light"), url("../assets/fonts/MeemFaNum-Light.woff2");
+  font-family: "Abar";
+  src:
+    local("AbarMidFaNum-Regular"),
+    url("../assets/fonts/AbarMidFaNum-Regular.woff");
   font-weight: 300;
 }
 
 @font-face {
-  font-family: "Meem";
+  font-family: "Abar";
   src:
-    local("MeemFaNum-Regular"), url("../assets/fonts/MeemFaNum-Regular.woff2");
+    local("AbarMidFaNum-Regular"),
+    url("../assets/fonts/AbarMidFaNum-Regular.woff");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "Meem";
-  src: local("MeemFaNum-Medium"), url("../assets/fonts/MeemFaNum-Medium.woff2");
+  font-family: "Abar";
+  src:
+    local("AbarMidFaNum-SemiBold"),
+    url("../assets/fonts/AbarMidFaNum-SemiBold.woff");
   font-weight: 500;
 }
 
 @font-face {
-  font-family: "Meem";
+  font-family: "Abar";
   src:
-    local("MeemFaNum-SemiBold"), url("../assets/fonts/MeemFaNum-SemiBold.woff2");
-  font-weight: 600;
+    local("AbarMidFaNum-Bold"), url("../assets/fonts/AbarMidFaNum-Bold.woff");
+  font-weight: 700;
 }
 
 @font-face {
-  font-family: "Meem";
-  src: local("MeemFaNum-Bold"), url("../assets/fonts/MeemFaNum-Bold.woff2");
-  font-weight: 700;
+  font-family: "Abar";
+  src:
+    local("AbarMidFaNum-ExtraBold"),
+    url("../assets/fonts/AbarMidFaNum-ExtraBold.woff");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Abar";
+  src:
+    local("AbarMidFaNum-Black"), url("../assets/fonts/AbarMidFaNum-Black.woff");
+  font-weight: 900;
 }
 
 :root {
   --background-dark: #171717;
-  --background-light: #ededed;
+  --background-light: #f5f8fa;
 
-  --background: #ededed;
+  --background: #f5f8fa;
   --foreground: #171717;
 
   --color-brand: #19136d;
@@ -69,7 +91,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: "Meem";
+  font-family: "Abar";
 }
 
 @theme inline {
