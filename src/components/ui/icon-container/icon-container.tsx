@@ -1,12 +1,14 @@
+import { cn } from "@/utils/styles/tailwind";
 import React, { ReactNode } from "react";
 
 interface PropTypes {
   children: ReactNode;
+  classes?: string;
 }
 
-export function IconContainer({ children }: PropTypes) {
+export function IconContainer({ children, classes = "" }: PropTypes) {
   return (
-    <div className="relative w-fit">
+    <div className={cn("relative w-fit", classes)}>
       <svg
         width="92"
         height="60"

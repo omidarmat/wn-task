@@ -5,7 +5,7 @@ export const features = {
     description:
       "مهمانان عزیز مسئول نگهداری از تجهیزات و وسایل داخل اقامتگاه در طول مدت اقامت هستند.",
     img: "/img/features/img-1.png",
-    imageRotation: 15,
+    imageRotation: -15,
   },
   peace: {
     id: "peace",
@@ -13,7 +13,7 @@ export const features = {
     description:
       "برای حفظ فضای آرام و دلنشین گیلمار، لطفاً از ایجاد سر‌وصدای زیاد به‌ویژه در ساعات شب خودداری کنید.",
     img: "/img/features/img-2.png",
-    imageRotation: -15,
+    imageRotation: 15,
   },
   ecosystem: {
     id: "ecosystem",

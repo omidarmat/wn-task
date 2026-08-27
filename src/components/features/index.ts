@@ -6,3 +6,4 @@ export { EntryCta } from "./entry-cta/entry-cta";
 export { Hero } from "./hero/hero";
 export { Intro } from "./intro/intro";
 export { Features } from "./features/features";
+export { Carousel } from "./carousel/carousel";

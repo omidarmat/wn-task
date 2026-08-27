@@ -15,8 +15,8 @@ export function FeatureItem({
   title,
   description,
   image,
-  imageStyles,
   imageBoxStyles,
+  imageStyles,
 }: PropTypes) {
   return (
     <div className="flex flex-col items-center gap-4 px-10">
