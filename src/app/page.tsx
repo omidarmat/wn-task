@@ -17,7 +17,7 @@ export default function Home() {
       <Carousel classes="mb-58" />
       <Variations classes="mb-58" />
       <VideoTour classes="mb-58" />
-      <Feedbacks />
+      <Feedbacks classes="mb-48" />
     </div>
   );
 }

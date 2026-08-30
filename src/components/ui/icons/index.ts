@@ -6,3 +6,4 @@ export { IconMedal } from "./icon-medal";
 export { IconPlay } from "./icon-play";
 export { IconVideo } from "./icon-video";
 export { IconComment } from "./icon-comment";
+export { IconQuotes } from "./icon-quotes";
