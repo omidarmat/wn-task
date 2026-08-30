@@ -12,8 +12,8 @@ interface PropTypes {
 
 export function FeedbackContent({ content, name, role }: PropTypes) {
   return (
-    <div className="p-2 rounded-2xl bg-[#FCFDFD]">
-      <div className="bg-[#FCFDFD] border border-gray-100 rounded-xl px-3 py-6 flex flex-col items-center drop-shadow-xl">
+    <div className="p-2 rounded-2xl bg-neutral-50">
+      <div className="bg-neutral-50 border border-gray-100 rounded-xl px-3 py-6 flex flex-col items-center drop-shadow-xl">
         <IconQuotes classes="mb-4" />
         <Typography classes="text-center leading-[30px] mb-6">
           {content}

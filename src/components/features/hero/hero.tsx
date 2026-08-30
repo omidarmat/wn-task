@@ -1,5 +1,8 @@
 import { Button, Container, Heading, Typography } from "@/components/ui";
 import { TypographySize, TypographyTag } from "@/types/ui/typography";
+import GilmarImage from "@/../public/img/hero/gilmar.png";
+import Image from "next/image";
+import { SuccessfulReservations } from "./successful-reservations";
 
 interface PropTypes {
   classes?: string;
@@ -22,7 +25,26 @@ export async function Hero({ classes }: PropTypes) {
           میراث فرهنگی، صنایع دستی و گردشگری گیلان فعالیت دارد.
         </Typography>
         <Button className="mb-10">مهمان گلیمار شو</Button>
-        <div className="w-full h-125 bg-neutral-200 rounded-2xl" />
+
+        <div className="relative">
+          <Image
+            src={GilmarImage}
+            alt="Gilmar residence image"
+            className="hero-clip"
+          />
+          <Image
+            src={GilmarImage}
+            alt=""
+            className="absolute top-0 right-0 blur-xl w-full -z-1"
+          />
+          <Typography
+            size={TypographySize.sm}
+            classes="absolute right-0 bottom-5 w-[20%] leading-[30px]"
+          >
+            فرار از شلوغی شهر و تجربه‌ی اقامتی اصیل در دل طبیعت شمال
+          </Typography>
+          <SuccessfulReservations classes="absolute left-2 bottom-2" />
+        </div>
       </div>
     </Container>
   );

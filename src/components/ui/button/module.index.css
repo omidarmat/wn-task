@@ -1,3 +1,11 @@
 .button-linear-gradient {
-  background: linear-gradient(to top right, #26e05a, #02adf7);
+  background: linear-gradient(to top right, #26e05a 0%, #02adf7 80%);
+  background-size: 200% 100%;
+  background-position-x: 0%;
+
+  transition: all 300ms;
+}
+
+.button-linear-gradient:hover {
+  background-position-x: 50%;
 }
