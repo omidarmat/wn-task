@@ -3,9 +3,9 @@ import { cn } from "@/utils/styles/tailwind";
 import type { ReactNode } from "react";
 
 const levelClasses: Record<HeadingLevel, string> = {
-  1: "text-5xl font-semibold leading-32",
-  2: "text-4xl font-semibold leading-24",
-  3: "text-3xl font-semibold leading-20",
+  1: "text-5xl font-extrabold leading-32",
+  2: "text-4xl font-extrabold leading-24",
+  3: "text-3xl font-extrabold leading-20",
   4: "text-2xl font-semibold leading-16",
   5: "text-xl font-semibold",
   6: "text-lg font-semibold",

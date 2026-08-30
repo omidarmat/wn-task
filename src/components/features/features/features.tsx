@@ -1,6 +1,6 @@
 import { Container, Heading, IconContainer, Typography } from "@/components/ui";
 import { IconLightning } from "@/components/ui/icons";
-import { features } from "@/constants/features";
+import { features } from "@/contents/features";
 import { TypographyTag } from "@/types/ui/typography";
 import { FeatureItem } from "./feature-item";
 

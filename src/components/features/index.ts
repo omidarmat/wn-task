@@ -7,3 +7,6 @@ export { Hero } from "./hero/hero";
 export { Intro } from "./intro/intro";
 export { Features } from "./features/features";
 export { Carousel } from "./carousel/carousel";
+export { Variations } from "./variations/variations";
+export { VideoTour } from "./video-tour/video-tour";
+export { Feedbacks } from "./feedbacks/feedbacks";

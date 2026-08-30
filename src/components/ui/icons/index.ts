@@ -2,3 +2,7 @@ export { IconEarth } from "./icon-earth";
 export { IconLightning } from "./icon-lightning";
 export { IconStar } from "./icon-star";
 export { IconArrowEllipse } from "./icon-arrow-ellipse";
+export { IconMedal } from "./icon-medal";
+export { IconPlay } from "./icon-play";
+export { IconVideo } from "./icon-video";
+export { IconComment } from "./icon-comment";

@@ -54,7 +54,7 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
     const sizes: Record<ButtonSize, string> = {
       small: variant === "icon" ? "h-8 w-8 px-1 text-sm" : "h-12 px-4 text-sm",
       regular:
-        variant === "icon" ? "h-10 w-10 px-2 text-sm" : "h-12 px-8 text-sm",
+        variant === "icon" ? "h-10 w-10 px-2 text-base" : "h-14 px-8 text-base",
       large:
         variant === "icon" ? "h-12 w-12 px-3 text-base" : "h-16 px-10 text-lg",
     };

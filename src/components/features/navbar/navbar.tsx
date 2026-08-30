@@ -1,5 +1,5 @@
 import { Typography } from "@/components/ui";
-import { navbarItems } from "@/constants/navbar";
+import { navbarItems } from "@/contents/navbar";
 
 export function Navbar() {
   return (
