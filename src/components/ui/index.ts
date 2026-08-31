@@ -12,3 +12,7 @@ export { MainLayout } from "./layout/layout.main";
 export { Container } from "./container/container";
 export { IconContainer } from "./icon-container/icon-container";
 export { CircleButton } from "./button/circle-button";
+export { IndexIndicator } from "./index-indicator/index-indicator";
+export { ElapseIndicator } from "./elapse-indicator/elapse-indicator";
+export { DoubleFoldBox } from "./double-fold-box/double-fold-box";
+export { Disclosure } from "./disclosure/disclosure";

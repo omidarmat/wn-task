@@ -7,3 +7,7 @@ export { IconPlay } from "./icon-play";
 export { IconVideo } from "./icon-video";
 export { IconComment } from "./icon-comment";
 export { IconQuotes } from "./icon-quotes";
+export { IconBox } from "./icon-box";
+export { IconArticle } from "./icon-article";
+export { IconQuestion } from "./icon-question";
+export { IconMinus } from "./icon-minus";

@@ -1,12 +1,16 @@
 "use client";
 
-import { Heading, IconContainer, Typography } from "@/components/ui";
+import {
+  Heading,
+  IconContainer,
+  IndexIndicator,
+  Typography,
+} from "@/components/ui";
 import { IconComment } from "@/components/ui/icons";
 import Image from "next/image";
 import WorldMapDotted from "@/../public/img/bgs/world-map-dotted.png";
 import { ActiveFeedback } from "./active-feedback";
 import { feedbacks } from "@/contents/feedbacks";
-import { IndexIndicator } from "./index-indicator";
 import { useMemo, useState } from "react";
 import { Feedback } from "@/types/dtos/feedback";
 import { RandomDisperse } from "./random-disperse";

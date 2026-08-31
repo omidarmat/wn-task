@@ -10,3 +10,6 @@ export { Carousel } from "./carousel/carousel";
 export { Variations } from "./variations/variations";
 export { VideoTour } from "./video-tour/video-tour";
 export { Feedbacks } from "./feedbacks/feedbacks";
+export { TourPackages } from "./tour-packages/tour-packages";
+export { Blog } from "./blog/blog";
+export { Faq } from "./faq/faq";

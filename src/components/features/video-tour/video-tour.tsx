@@ -48,7 +48,7 @@ export function VideoTour({ classes = "" }: PropTypes) {
         <Image
           src={GeoMap}
           alt="Geographical map"
-          className="brightness-95 absolute right-0 -top-10"
+          className="absolute right-0 -top-10"
         />
       </Container>
       <Image

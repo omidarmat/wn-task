@@ -42,19 +42,19 @@ export function Carousel({ classes = "" }: PropTypes) {
                 <Image
                   src={Carousel1}
                   alt="Carousel 1"
-                  className="rounded-2xl shrink-0"
+                  className="rounded-2xl shrink-0 brightness-75"
                   height={350}
                 />
                 <Image
                   src={Carousel2}
                   alt="Carousel 2"
-                  className="rounded-2xl shrink-0"
+                  className="rounded-2xl shrink-0 brightness-75"
                   height={400}
                 />
                 <Image
                   src={Carousel3}
                   alt="Carousel 3"
-                  className="rounded-2xl shrink-0"
+                  className="rounded-2xl shrink-0 brightness-75"
                   height={350}
                 />
               </div>
