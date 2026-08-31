@@ -1,6 +1,10 @@
 import Image from "next/image";
 import GilmarLogo from "@/../public/logo.png";
 
-export function Logo() {
-  return <Image src={GilmarLogo} alt="Gilmar Logo" />;
+interface PropTypes {
+  classes?: string;
+}
+
+export function Logo({ classes = "" }: PropTypes) {
+  return <Image className={classes} src={GilmarLogo} alt="Gilmar Logo" />;
 }

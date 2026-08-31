@@ -26,7 +26,7 @@ export function CircleButton({
 
   if (variant === "colorful")
     return (
-      <button className="relative">
+      <button className="relative cursor-pointer">
         <svg
           width="30"
           height="30"

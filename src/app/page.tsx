@@ -23,7 +23,7 @@ export default function Home() {
       <Feedbacks classes="mb-48" />
       <TourPackages classes="mb-48" />
       <Blog classes="mb-32" />
-      <Faq />
+      <Faq classes="mb-32" />
     </div>
   );
 }

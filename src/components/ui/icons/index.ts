@@ -11,3 +11,8 @@ export { IconBox } from "./icon-box";
 export { IconArticle } from "./icon-article";
 export { IconQuestion } from "./icon-question";
 export { IconMinus } from "./icon-minus";
+export { IconPlus } from "./icon-plus";
+export { IconLinkedin } from "./icon-linkedin";
+export { IconX } from "./icon-x";
+export { IconTelegram } from "./icon-telegram";
+export { IconYoutube } from "./icon-youtube";

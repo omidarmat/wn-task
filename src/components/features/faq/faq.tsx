@@ -10,9 +10,13 @@ import Image from "next/image";
 import QueryForAnswers from "@/../public/img/bgs/query.png";
 import { faq } from "@/contents/faq";
 
-export function Faq() {
+interface PropTypes {
+  classes?: string;
+}
+
+export function Faq({ classes = "" }: PropTypes) {
   return (
-    <div>
+    <div className={classes}>
       <Container>
         <div className="grid grid-cols-2 gap-10">
           <div>
